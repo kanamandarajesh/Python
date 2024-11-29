@@ -115,3 +115,91 @@ result = "Pass" if score >= 50 else "Fail"
 ---
 
 Let me know if you need more details on any specific part!
+
+
+
+====
+=====
+### 1. **Conditional Statements**  
+Conditional statements are used to execute code based on whether a given condition is true or false. They allow for decision-making within the program.
+
+**Types of Conditional Statements:**  
+- **`if` statement:**  
+  Executes a block of code if a condition is true.  
+  ```python
+  if condition:
+      # Code to execute if condition is true
+  ```
+
+- **`if-else` statement:**  
+  Executes one block if the condition is true and another if it is false.  
+  ```python
+  if condition:
+      # Code if true
+  else:
+      # Code if false
+  ```
+
+- **`if-elif-else` statement:**  
+  Allows checking multiple conditions.  
+  ```python
+  if condition1:
+      # Code if condition1 is true
+  elif condition2:
+      # Code if condition2 is true
+  else:
+      # Code if none are true
+  ```
+
+---
+
+### 2. **Looping Statements**  
+Looping statements allow you to execute a block of code repeatedly, either for a set number of iterations or while a condition is true.
+
+**Types of Loops:**  
+
+- **`for` loop:**  
+  Iterates over a sequence (like a list, tuple, or range).  
+  ```python
+  for item in sequence:
+      # Code to execute for each item
+  ```
+
+- **`while` loop:**  
+  Continues executing as long as the condition remains true.  
+  ```python
+  while condition:
+      # Code to execute while condition is true
+  ```
+
+---
+
+### 3. **Jumping Statements**  
+Jumping statements control the flow of loops, allowing you to jump to different parts of the code based on certain conditions.
+
+**Types of Jumping Statements:**  
+
+- **`break`:**  
+  Terminates the loop immediately, regardless of the loop condition.  
+  ```python
+  for i in range(5):
+      if i == 3:
+          break  # Exit the loop
+  ```
+
+- **`continue`:**  
+  Skips the current iteration and continues with the next iteration.  
+  ```python
+  for i in range(5):
+      if i == 2:
+          continue  # Skip the rest of this iteration
+  ```
+
+- **`pass`:**  
+  A null statement; does nothing and acts as a placeholder.  
+  ```python
+  if condition:
+      pass  # No action taken, placeholder for future code
+  ```
+
+Let me know if you need more examples or further explanations!
